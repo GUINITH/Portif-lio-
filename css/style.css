@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box 0px ;
+}
+
+body{
+    overflow: hidden;
+    background-color: hsla(180, 1%, 29%, 0.379);
+}
+
+.nav-bar{
+    background-attachment: fixed;
+    --bg:dark;
+    color: white;
+    display: flexbox;
+    justify-content: flex-end;
+    padding: 7px;
+    margin: 6px;
+
+}
+
+span{
+    color: red;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,h2{
+
+    font-size: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+
+}
+
+
+.home-itens-img{
+width: 250px;
+height: 250px;
+border-radius: solid 15px;
+padding: 20px;
+margin-top: 5px;
+
+}
+
+
+.home-itens-icons img{
+        width: 100px;
+        height: 100px;
+        background: red;
+        transition: width 2s, height 2s, transform 2s;
+
+}
+
+.div#home-itens-icons:hover{
+    
+        width: 300px;
+        height: 300px;
+        transform: rotate(180deg);
+    
+}
+
+
+
+.home-itens-icons P{
+
+    background-color: brown;
+
+}
+    
+
+
+footer img{
+
+width: 40px;
+height: 20px;
+padding: 5px 5px;
+margin: 3px;
+
+}
