@@ -33,6 +33,27 @@ h2{
     
 }
 
+button{
+    background-color: aqua;
+    box-shadow: rgba(0, 0, 0, 0.313);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+
+  button:hover{
+   color: rgb(12, 41, 134);
+  }
+
+
 
 .nav-bar{
     background-attachment: fixed;
@@ -43,6 +64,9 @@ h2{
     padding: 7px;
     margin: 6px;
 
+}
+a:hover{
+    color: rgb(12, 41, 134);
 }
 
 span{
