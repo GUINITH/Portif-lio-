@@ -6,8 +6,33 @@
 
 body{
     overflow: hidden;
-    background-color: hsla(180, 1%, 29%, 0.379);
+    background-color: hwb(208 3% 62% / 0.379);
 }
+
+h2{
+
+    border-right: 4px solid;
+    width: 14ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(14), blinking 0.5s infinite
+     step-end alternate;
+}
+
+@keyframes typing{
+ from{
+    width: 0px;
+
+ }
+}
+
+@keyframes blinking{
+    50%{
+        border-color: transparent;
+    }
+    
+}
+
 
 .nav-bar{
     background-attachment: fixed;
@@ -21,7 +46,7 @@ body{
 }
 
 span{
-    color: red;
+    color: rgb(12, 41, 134);
 }
 
 .home{
@@ -34,7 +59,7 @@ h1,h2{
 
     font-size: 150px;
     font-family: 'Times New Roman', Times, serif;
-    background-color: black;
+    color: black;
 
 }
 
@@ -52,7 +77,7 @@ margin-top: 5px;
 .home-itens-icons img{
         width: 100px;
         height: 100px;
-        background: red;
+
         transition: width 2s, height 2s, transform 2s;
 
 }
@@ -69,7 +94,7 @@ margin-top: 5px;
 
 .home-itens-icons P{
 
-    background-color: brown;
+    background-color: rgb(23, 194, 213);
 
 }
     
@@ -82,4 +107,16 @@ height: 20px;
 padding: 5px 5px;
 margin: 3px;
 
+}
+
+footer img:hover{
+    color: rgb(89, 89, 241);
+}
+
+footer#link{
+
+background-color: rgba(128, 154, 234, 0.975);
+text-align: center;
+padding: 3px;
+color: black;
 }
